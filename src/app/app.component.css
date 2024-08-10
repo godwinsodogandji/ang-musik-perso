@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+.span {
+  background-color: rgba(17, 150, 61, 0.74);
+  padding: 5px;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  border-radius: 10px;
+  font-size: 1.2em;
+}
+.form {
+  display: flex;
+  justify-content: center;
+  width: 600px;
+  height: 2.5em;
+}
+.navbar-brand {
+color: rgba(238, 113, 23, 0.788);
+font: bold;
+font-size: 1.5em;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+

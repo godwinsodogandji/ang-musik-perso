@@ -1,0 +1,23 @@
+* {
+  margin: 0 auto;
+  font-style: normal;
+  padding: 5px;
+}
+
+.card {
+  /* background-color: darkgray; */
+  max-width: 30em;
+  margin-bottom: auto;
+  box-shadow: 30rem;
+  position: relative;
+}
+
+h1 {
+  font-size: 5em;
+  font-family: 'Courier New', Courier, monospace;
+  color: rgb(43, 55, 66);
+}
+input {
+  width: 100%;
+  background-color: rgba(250, 235, 215, 0.24);
+}

@@ -1,0 +1,32 @@
+.flex {
+  display: flex;
+  box-sizing: border-box;
+  margin: auto;
+  justify-content: center;
+  margin-top: 60px;
+  gap: 10px;
+  border-radius: 10px;
+  /* background-color: rgb(206, 187, 187); */
+}
+
+input {
+  width: 800px;
+  padding: 5px;
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  box-shadow: #ffffffee;
+}
+
+button {
+  border-radius: 10px;
+  padding: auto;
+  width: 6rem;
+  background-color: rgba(212, 207, 207, 0.918);
+}
+
+h2 {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 2em;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
