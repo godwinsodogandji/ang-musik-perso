@@ -1,5 +1,7 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, EventEmitter, Input, input, OnInit, Output } from '@angular/core';
 import { SearchComponent } from '../search/search.component';
+import { AlbumsService } from '../services/albums.service';
+import { Albums } from '../albums';
 
 
 @Component({
@@ -7,7 +9,10 @@ import { SearchComponent } from '../search/search.component';
   templateUrl: './albums.component.html',
   styleUrl: './albums.component.css'
 })
-export class AlbumsComponent  {
+export class AlbumsComponent {
+
+  constructor(private emitter:AlbumsService){}
+ 
 
 
 }
