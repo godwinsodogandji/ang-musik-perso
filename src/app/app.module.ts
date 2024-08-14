@@ -11,6 +11,8 @@ import { AlbumsDetailsComponent } from './albums-details/albums-details.componen
 import { AlbumsDescriptionComponent } from './albums-description/albums-description.component';
 import { ChronometreComponent } from './chronometre/chronometre.component';
 import { FormsModule } from '@angular/forms';
+import { PaginationComponent } from './pagination/pagination.component';
+import { PlayerComponent } from './player/player.component';
 
 
 
@@ -24,6 +26,8 @@ import { FormsModule } from '@angular/forms';
     AlbumsDetailsComponent,
     AlbumsDescriptionComponent,
     ChronometreComponent,
+    PaginationComponent,
+    PlayerComponent,
   ],
   imports: [
     BrowserModule,

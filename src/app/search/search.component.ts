@@ -27,7 +27,7 @@ export class SearchComponent implements OnInit {
   search() {
     if (this.keyword.trim() !== "") {
       this.receive = this.albums.albumPhoto.filter((el) => el.title.toLowerCase().includes(this.keyword.toLowerCase()))
-      this.keyword = "";
+
     } else {
       this.receive = this.albums.albumPhoto
     }

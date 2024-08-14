@@ -1,16 +1,30 @@
 <div class="container d-flex mt-4">
   <div class="">
-    <app-albums-details [detailsList]="aside"></app-albums-details>
+     <app-albums-details [detailsList]="aside"></app-albums-details> <!--affichage du component albums-details -->
   </div>
   <div class="">
     <div class=" mx-2">
-      <div class="d-flex" width="100px">
-        <input [(ngModel)]="keyword" type="search" class="form-control" placeholder="..." aria-label="..."
-          name="search">
-        <button class="btn btn-outline-success" type="submit" (click)="search()">Search</button>
+
+      <div >
+        <div class=" d-flex"  >
+          <input [(ngModel)]="keyword" type="search" class="form-control" placeholder="..." aria-label="..."
+            name="search"  (keyup)="search()">
+          <!-- <button class="btn btn-outline-success" type="submit">Search</button> -->
+        </div>
       </div>
       <div class="text-center mt-5">
         <h2>Page principale Album Music</h2>
+      </div>
+      <div  class="d-flex justify-center paginate my-4">
+        <nav aria-label="Page navigation example">
+          <ul class="pagination ">
+            <li class="page-item"><a class="page-link previous" href="#">Previous</a></li>
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item"><a class="page-link" href="#">Next</a></li>
+          </ul>
+        </nav>
       </div>
     </div>
     <article class="card my-5 mx-2" *ngFor="let album of receive">

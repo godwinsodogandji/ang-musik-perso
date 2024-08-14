@@ -18,7 +18,7 @@ export class AlbumsDescriptionComponent implements OnInit {
     this.albumId = this.route.snapshot.paramMap.get('id') || ''
 
     this.album = this.albums.filter((el:Albums)=>el.id==this.albumId)
-  console.log(this.album);
+  console.log(this.albumId);
 
   }
 
